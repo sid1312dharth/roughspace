@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+# 🏗️ Roughspace
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+[![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://roughspace.vercel.app)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](#)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite&logoColor=FFD62E)](#)
 
-Currently, two official plugins are available:
+A personal sandbox environment dedicated to prototyping, building, and testing React and TypeScript components. Optimized for rapid UI development using Vite and continuously deployed via Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🔗 Live Demo
+**View the active deployment:** [roughspace.vercel.app](https://roughspace.vercel.app)
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Core Framework:** React
+* **Language:** TypeScript
+* **Build Tool:** Vite (with HMR)
+* **Linting Engine:** Oxlint 
+* **Hosting:** Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the Oxlint configuration
+Follow these steps to run the component sandbox locally:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/sid1312dharth/roughspace.git](https://github.com/sid1312dharth/roughspace.git)
